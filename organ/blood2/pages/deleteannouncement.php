@@ -2,7 +2,7 @@
 
 <head>
 
-<title>BDMS</title>
+<title>style='color:#e74e63'</title>
 
 <!-- Bootstrap Core CSS -->
 <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
