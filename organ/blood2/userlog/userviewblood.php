@@ -44,8 +44,8 @@
                                     Total Records of available bloods
                                 </div>
 								
-								 <div class="panel-body" style="background-color: rgb(255, 179, 197)">
-                                    <div class="table-responsive">
+								 <div class="panel-body">
+                                    <div class="table-responsive" style="background-color: rgb(255, 179, 197)">
 									<table class="table table-striped table-bordered table-hover" id="dataTables-example">
 									
 									<?php
