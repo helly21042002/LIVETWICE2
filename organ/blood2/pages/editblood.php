@@ -32,7 +32,7 @@
 <div class="container-fluid">
 <div class="row">
 <div class=".col-lg-12">
-               <h1 class="page-header">Edit Blood Details</h1>
+               <h1 style='color:#e74e63' class="page-header">Edit Blood Details</h1>
                 </div>
   </div>  
 
@@ -43,7 +43,7 @@
                                     Total Records of available bloods
                                 </div>
 								
-								 <div class="panel-body">
+								 <div class="panel-body" style='color:#e74e63'>
                                     <div class="table-responsive" style="background-color: rgb(255, 179, 197)">
 									<table class="table table-striped table-bordered table-hover" id="dataTables-example">
 									
@@ -56,7 +56,7 @@
 
 
 						echo"
-						<thead>
+						<thead style='color:#e74e63'>
 						<tr>
 							<th>Blood Group</th>
 							<th>Full Name</th>
@@ -83,7 +83,7 @@
 						  <td>".$row['contact']."</td>
 						  <td>".$row['bloodqty']."</td>
 						  <td>".$row['collection']."</td>
-						  <td><a href='editbloodform.php?id=".$row['id']."'><i class='fa fa-edit' style='color:green'></i></a></td>
+						  <td><a href='editbloodform.php?id=".$row['id']."'><i class='fa fa-edit' style='color:#e74e63'></i></a></td>
 
 						</tr>
 						<tbody>

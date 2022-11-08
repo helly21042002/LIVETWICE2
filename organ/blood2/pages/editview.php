@@ -31,7 +31,7 @@
 <div class="container-fluid">
 <div class="row">
 <div class=".col-lg-12">
-               <h1 class="page-header">Edit Donors Detail</h1>
+               <h1 style='color:#e74e63' class="page-header">Edit Donors Detail</h1>
                 </div>
   </div>  
 
@@ -42,7 +42,7 @@
                                     Total Records of available donors
                                 </div>
 								
-								 <div class="panel-body">
+								 <div class="panel-body" style='color:#e74e63'>
                                     <div class="table-responsive">
 									<table class="table table-striped table-bordered table-hover" id="dataTables-example">
 									
@@ -55,7 +55,7 @@
 
 
 						echo"
-						<thead>
+						<thead style='color:#e74e63'>
 						<tr>
 							<th>Name</th>
 							<th>Username</th>
@@ -84,7 +84,7 @@
 						  <td>".$row['email']."</td>
 						  <td>".$row['address']."</td>
 						  <td>".$row['contact']."</td>
-						  <td><a href='editform.php?id=".$row['id']."'><i class='fa fa-edit' style='color:green'></i></a></td>
+						  <td><a href='editform.php?id=".$row['id']."'><i class='fa fa-edit' style='color:#e74e63'></i></a></td>
 
 						</tr>
 						</tbody>";
