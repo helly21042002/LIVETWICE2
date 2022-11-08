@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>BDMS</title>
+    <title>LIVE TWICE</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -47,7 +47,7 @@
                         <div class="panel-heading">
                             Please fill up the form below:
                         </div>
-                        <div class="panel-body">
+                        <div class="panel-body"style="background-color: rgb(255, 179, 197)">
                             <div class="row">
                                 <div class="col-lg-6">
                                     <form role="form" action="useraddedrequest.php" method="POST">
@@ -134,9 +134,6 @@
 
 </body>
 
-<footer>
-        <p>&copy; <?php echo date("Y"); ?>: Developed By Naseeb Bajracharya</p>
-    </footer>
 	
 	<style>
 	footer{
