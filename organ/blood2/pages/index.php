@@ -21,7 +21,7 @@ $result= mysqli_query($conn,$qry);
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Live Twice</title>
+    <title>LIVETWICE</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -65,7 +65,7 @@ $result= mysqli_query($conn,$qry);
                           ?>  
                      ]);  
                 var options = {  
-                      title: 'Total Available Blood According to Blood Groups',  
+                      title: 'Total Available Organs',  
                       is3D:true,  
                       pieHole: 0.0 
                      };  
@@ -125,7 +125,7 @@ $result= mysqli_query($conn,$qry);
                                     <!-- in order to count total donor's record -->
                                     <?php include 'counter/dashbloodcount.php';?> 
                                     
-                                    <div>Available Blood</div>
+                                    <div>Available Organ</div>
                                 </div>
                             </div>
                         </div>
@@ -166,13 +166,13 @@ $result= mysqli_query($conn,$qry);
                                 
                                 <div class="col-xs-9 text-right">
                                     <div class="huge">Donate</div>
-                                    <div>Blood</div>
+                                    <div>Organ</div>
                                 </div>
                             </div>
                         </div>
                         <a href="addblood.php">
                             <div class="panel-footer">
-                                <span class="pull-left">Donate Blood Now!</span>
+                                <span class="pull-left">Donate Organ Now!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                 <div class="clearfix"></div>
                             </div>
@@ -193,7 +193,7 @@ $result= mysqli_query($conn,$qry);
                         </div>
                         <a href="viewrequests.php">
                             <div class="panel-footer">
-                                <span class="pull-left">Donate Blood Now!</span>
+                                <span class="pull-left">Donate Organ Now!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                 <div class="clearfix"></div>
                             </div>
@@ -253,5 +253,8 @@ $result= mysqli_query($conn,$qry);
     <script src="../dist/js/sb-admin-2.js"></script>
 
 </body>
+
+
+
 
 </html>
