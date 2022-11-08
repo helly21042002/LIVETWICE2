@@ -85,7 +85,7 @@
 						  <td>".$row['email']."</td>
 						  <td>".$row['address']."</td>
 						  <td>".$row['contact']."</td>
-						  <td><a href='delete.php?id=".$row['id']."'><i style='color:#e74e63' class='fa fa-trash' ></i></a></td>	
+						  <td><a href='delete.php?id=".$row['id']."'><i style='color:#e74e63' class='fa fa-pencil' ></i></a></td>	
 						</tr>
 						</tbody>";
 						}
