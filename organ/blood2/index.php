@@ -10,7 +10,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>BDMS - Admin Panel</title>
+        <title>LIVETWICE - Admin Panel</title>
 
         <!-- Bootstrap Core CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -21,7 +21,9 @@
         <!-- Custom CSS -->
         <link href="css/startmin.css" rel="stylesheet">
 
-        <link rel="stylesheet" href="/bloodbank se/icofont/icofont.min.css">
+        
+        <link rel="stylesheet" href="../icofont/icofont.min.css">
+
 
         <!-- Custom Fonts -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/fontawesome.min.css" rel="stylesheet" type="text/css">
@@ -33,28 +35,29 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body>
+    <body style="background-color:#e74e63">
 	
 		<nav class="navbar navbar-inverse">
-			  <div class="container-fluid">
-				<div class="navbar-header">
-                <a class="navbar-brand" href="index.php"><i class="icofont-blood-drop"></i>Blood Donation Management System</a>
+			  <div  class="container-fluid">
+				<div  class="navbar-header">
+                <a style="color:#e74e63" class="navbar-brand" href="index.php"><i style="color:#e74e63" class="icofont-heart-beat-alt"></i> LIVETWICE- Organ Donation Website</a>
+                
 				</div>
 
-				<ul class="nav navbar-nav navbar-right">
+				<ul  class="nav navbar-nav navbar-right">
 				  <!-- <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li> -->
-				  <li><a href="userlog/userlogin.php" ><span class="glyphicon glyphicon-user" style="color:#00A10F;"></span> User Login</a></li>
+				  <li><a href="userlog/userlogin.php" ><span  class="glyphicon glyphicon-user" ></span> User Login</a></li>
 				</ul>
 			  </div>
 		</nav>
 
-        <div class="container">
+        <div  class="container">
 		 <form action="#" method="post">
-            <div class="row">
+            <div  class="row">
                 <div class="col-md-4 col-md-offset-4">
                     <div class="login-panel panel panel-default">
                         <div class="panel-heading">
-                            <h3 class="panel-title"><center>Admin Login</center></h3>
+                            <h3  class="panel-title"><center>Admin Login</center></h3>
                         </div>
                         <div class="panel-body">
                             <form role="form">
@@ -71,7 +74,7 @@
                                         </label>
                                     </div>
                                     <!-- Change this to a button or input when using this as a form -->
-                                    <input type="submit" class="btn btn-info btn-block" style="border-radius:0%;" title="Log In" name="login" value="Login"></input>
+                                    <input type="submit" class="btn btn-info btn-block" style="border-radius:0%; background-color:#e74e63 " title="Log In" name="login" value="Login"></input>
                                 </fieldset>
                                 
                             </form>
@@ -130,16 +133,7 @@
 
     </body>
 
-    <!-- Footer -->
-	<footer class="page-footer font-small special-color-dark pt-4">
-		<!-- Copyright -->
-		<div class="footer-copyright text-center py-3">© <?php echo date("Y"); ?>
-		 Developed By PARTH, NAMAN, GAURAV
-		</div>
-		<!-- Copyright -->
-
-	</footer>
-<!-- Footer -->
+   
     
 </html>
   
