@@ -63,7 +63,6 @@
 						<th>Phone Number</th>
 						<th>Date of campaign</th>
 						<th>Description</th>
-						<th><i  style='color:#e74e63' class='fa fa-pencil'></i></th>
 					</tr>
 						</thead>";
 
@@ -75,7 +74,6 @@
 						  <td>".$row['phn']."</td>
 						  <td>".$row['cdate']."</td>
 						  <td>".$row['descp']."</td>
-						  <td><a href='delete.php?id=".$row['id']."'><i style='color:#e74e63' class='fa fa-pencil' ></i></a></td>
 						</tr>
 						</tbody>";
 						}

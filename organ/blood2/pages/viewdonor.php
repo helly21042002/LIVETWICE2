@@ -67,7 +67,6 @@
 							<th>Email</th>
 							<th>Address</th>
 							<th>Contact</th>
-							<th><i  style='color:#e74e63' class='fa fa-pencil'></i></th>
 						</tr>
 						</thead>";
 
@@ -84,8 +83,7 @@
 						  <td>".$row['organ']."</td>
 						  <td>".$row['email']."</td>
 						  <td>".$row['address']."</td>
-						  <td>".$row['contact']."</td>
-						  <td><a href='delete.php?id=".$row['id']."'><i style='color:#e74e63' class='fa fa-pencil' ></i></a></td>	
+						  <td>".$row['contact']."</td>	
 						</tr>
 						</tbody>";
 						}

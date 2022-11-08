@@ -74,7 +74,6 @@
 							<th>Contact</th>
 							<th>Blood Quantity</th>
 							<th>Collection Date</th>
-							<th><i  style='color:#e74e63' class='fa fa-pencil'></i></th>
 						</tr>
 						</thead>";
 
@@ -91,7 +90,6 @@
 						  <td>".$row['contact']."</td>
 						  <td>".$row['bloodqty']."</td>
 						  <td>".$row['collection']."</td>
-						  <td><a href='delete.php?id=".$row['id']."'><i style='color:#e74e63' class='fa fa-pencil' ></i></a></td>
 						</tr>
 						<tbody>
 						";
