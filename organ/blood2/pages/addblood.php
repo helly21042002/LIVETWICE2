@@ -43,7 +43,7 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Add Blood Details</h1>
+                    <h1 class="page-header" style="background-color: rgb(255, 179, 197)">Add Blood Details</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -51,11 +51,11 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="panel panel-default">
-                        <div class="panel-heading">
+                        <div class="panel-heading" style="background-color: #e74e63">
                             Please fill up the form below:
                         </div>
                         <div class="panel-body">
-                            <div class="row">
+                            <div class="row" style="background-color: rgb(255, 179, 197)">
                                 <div class="col-lg-6">
                                     <form role="form" action="addedblood.php" method="post">
                                      
