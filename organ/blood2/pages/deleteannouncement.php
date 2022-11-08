@@ -77,7 +77,6 @@
 						  <td>".$row['organizer']."</td>
 						  <td>".$row['requirements']."</td>
 						  <td><a href='deletedannounce.php?id=".$row['id']."'><i style='color:#e74e63' class='fa fa-trash'></i></a></td>
-
 						</tr>
 						</tbody>";
 						}
