@@ -65,6 +65,7 @@
 						<thead>
 						<tr>
 							<th>Blood Group</th>
+							<th>Organ Name</th>
 							<th>Full Name</th>
 							<th>Gender</th>
 							<th>D.O.B</th>
@@ -80,6 +81,7 @@
 						  echo"<tbody>
 						  <tr class='gradeA'>
 						  <td>".$row['bloodgroup']."</td>
+						  <td>".$row['organ']."</td>
 						  <td>".$row['name']."</td>
 						  <td>".$row['gender']."</td>
 						  <td>".$row['dob']."</td>
