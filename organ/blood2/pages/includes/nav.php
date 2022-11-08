@@ -7,7 +7,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a style="color:#e74e63" class="navbar-brand" href="index.php"><i style="color:#e74e63" class="icofont-heart-beat-alt"></i> Organ Donation</a>
+                <a style="color:#e74e63" class="navbar-brand" href="index.php"><i style="color:#e74e63" class="icofont-heart-beat-alt"></i> LIVETWICE</a>
             </div>
             <!-- /.navbar-header -->
 
