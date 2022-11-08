@@ -34,14 +34,14 @@
                 </div>
   </div>  
 
-				<div class="row">
+				<div class="row"  >
                         <div class=".col-lg-12">
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     Total Records of available requesters
                                 </div>
 								
-								 <div class="panel-body">
+								 <div class="panel-body"  style="background-color: rgb(255, 179, 197)">
                                     <div class="table-responsive">
 									<table class="table table-striped table-bordered table-hover" id="dataTables-example">
 									
