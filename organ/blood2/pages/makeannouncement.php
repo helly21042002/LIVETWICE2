@@ -62,7 +62,10 @@
                                             <label>Blood Needed (Type)</label>
                                             <input class="form-control" type="text" placeholder="example: B+" name="bloodneed" required>
                                         </div>
-
+                                        <div class="form-group">
+                                            <label>Organ</label>
+                                            <input class="form-control" type="text" placeholder="example: B+" name="organ" required>
+                                        </div>
                                         <div class="form-group">
                                             <label>Date and Time</label>
                                             <input class="form-control" type="date" name="dat" required>
