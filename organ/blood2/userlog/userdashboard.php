@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>LIVE TWICE</title>
+    <title>LIVETWICE</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -61,13 +61,13 @@
                                     <!-- in order to count total donor's record -->
                                     <?php include 'counter/dashbloodcount.php';?> 
                                     
-                                    <div>Available Blood</div>
+                                    <div>Available Organs</div>
                                 </div>
                             </div>
                         </div>
                         <a href="userviewblood.php">
                             <div class="panel-footer">
-                                <span class="pull-left">View Available Blood Details</span>
+                                <span class="pull-left">View Available Organ Details</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                 <div class="clearfix"></div>
                             </div>
@@ -106,17 +106,17 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="panel panel-yellow">
                         <div class="panel-heading">
-                            <div class="row">
+                            <div  class="row">
                                
-                                <div class="col-xs-9 text-right">
+                                <div  class="col-xs-9 text-right">
                                 <?php include 'counter/dashannouncecount.php';?>
-                                    <div class="huge"> </div>
-                                    <div>Announcement</div>
+                                    <div  class="huge"> </div>
+                                    <div >Announcement</div>
                                 </div>
                             </div>
                         </div>
                         <a href="userviewannouncement.php">
-                            <div class="panel-footer">
+                            <div  class="panel-footer">
                                 <span class="pull-left">View Announcement Details</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                 <div class="clearfix"></div>
@@ -131,13 +131,13 @@
                     
                                 <div class="col-xs-9 text-right">
                                     <div class="huge">Donate</div>
-                                    <div>Blood</div>
+                                    <div>Organ</div>
                                 </div>
                             </div>
                         </div>
                         <a href="useraddblood.php">
                             <div class="panel-footer">
-                                <span class="pull-left">Donate Blood Now!</span>
+                                <span class="pull-left">Donate Organ Now!</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                 <div class="clearfix"></div>
                             </div>
@@ -202,24 +202,5 @@
     <script src="../dist/js/sb-admin-2.js"></script>
 
 </body>
-
-	
-	<style>
-	footer{
-   background-color: #424558;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 35px;
-    text-align: center;
-    color: #CCC;
-}
-
-footer p {
-    padding: 10.5px;
-    margin: 0px;
-    line-height: 100%;
-}
-	</style>
 
 </html>
