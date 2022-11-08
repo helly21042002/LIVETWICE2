@@ -39,7 +39,7 @@
 				<div class="row">
                         <div class=".col-lg-12">
                             <div class="panel panel-default">
-                                <div class="panel-heading" style="background-color: #e74e63">
+                                <div class="panel-heading" >
                                     Total Records of available Organs
                                 </div>
 								
@@ -56,7 +56,7 @@
 
 
 						echo"
-						<thead style='color:#e74e63'>
+						<thead style='background-color:#e74e63'>
 						<tr>
 							<th>Blood Group</th>
 							<th>Organ</th>

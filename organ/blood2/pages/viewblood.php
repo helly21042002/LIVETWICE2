@@ -62,7 +62,7 @@
 
 
 						echo"
-						<thead style='color:#e74e63'>
+						<thead style='background-color:#e74e63'>
 						<tr>
 							<th>Blood Group</th>
 							<th>Organ Name</th>

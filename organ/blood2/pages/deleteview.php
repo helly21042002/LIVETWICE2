@@ -54,7 +54,7 @@
 
 
 						echo"
-						<thead style='color:#e74e63'>
+						<thead style='background-color:#e74e63'>
 						<tr  >
 							<th>Name</th>
 							<th>Username</th>
@@ -118,25 +118,4 @@
 
 </body>
 
-<footer>
-        <p>&copy; <?php echo date("Y"); ?>: Developed By Helly, Prajjwal, Sanjeevani, aditya</p>
-    </footer>
-	
-	<style>
-	footer{
-   background-color: #424558;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 35px;
-    text-align: center;
-    color: #CCC;
-}
-
-footer p {
-    padding: 10.5px;
-    margin: 0px;
-    line-height: 100%;
-}
-	</style>
 </html>
