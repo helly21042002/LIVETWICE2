@@ -27,7 +27,7 @@
 
 </head>
 
-<body>
+<body style="background-color: rgb(255, 179, 197)">
 
     <div id="wrapper">
 

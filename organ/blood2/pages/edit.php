@@ -65,12 +65,13 @@
 				$dob = $_POST["dob"];
 				$weight = $_POST["weight"];
 				$bloodgroup = $_POST["bloodgroup"];
+                $organ=$_POST["organ"];
 				$email = $_POST["email"];
 				$address = $_POST["address"];
 				$contact = $_POST["contact"];
 				$id=$_POST['id'];
 				//update query
-				$qry = "update donor set name='$name', guardiansname='$guardiansname', gender='$gender', dob='$dob', weight='$weight', bloodgroup='$bloodgroup', email='$email', address='$address', contact='$contact' where id='$id'";
+				$qry = "update donor set name='$name', guardiansname='$guardiansname', gender='$gender', dob='$dob', weight='$weight', bloodgroup='$bloodgroup',organ='$organ', email='$email', address='$address', contact='$contact' where id='$id'";
 				$result = mysqli_query($conn,$qry); //query executes
 
 				if(!$result){
@@ -116,24 +117,4 @@
     <script src="../dist/js/sb-admin-2.js"></script>
 
 </body>
-
-	
-	<style>
-	footer{
-   background-color: #424558;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 35px;
-    text-align: center;
-    color: #CCC;
-}
-
-footer p {
-    padding: 10.5px;
-    margin: 0px;
-    line-height: 100%;
-}
-	</style>
-
 </html>

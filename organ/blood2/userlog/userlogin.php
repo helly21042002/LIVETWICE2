@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<body>
+<body style="background-color: rgb(255, 179, 197)">
 
 	<div class="container h-100" style="background-color: #e74e63">
 		<div class="d-flex justify-content-center h-100">

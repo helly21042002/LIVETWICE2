@@ -37,7 +37,7 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Edit Blood Details</h1>
+                    <h1 class="page-header">Edit Organ Details</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -85,6 +85,11 @@
                                         <div class="form-group">
                                             <label>Enter Blood Group</label>
                                             <input class="form-control" type="text" name="bloodgroup" value='<?php echo $row['bloodgroup']; ?>' required>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>Enter Organ Group</label>
+                                            <input class="form-control" type="text" name="organ" value='<?php echo $row['organ']; ?>' required>
                                         </div>
 
                                         <div class="form-group">
