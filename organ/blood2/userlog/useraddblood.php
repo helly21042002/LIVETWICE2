@@ -48,11 +48,12 @@
                             Please fill up the form below:
                         </div>
                         <div class="panel-body">
-                            <div class="row">
+                            <div class="row" style="background-color: rgb(255, 179, 197)"
+>
                                 <div class="col-lg-6">
                                     <form role="form" action="useraddedblood.php" method="POST">
                                      
-                                        <div class="form-group">
+                                        <div class="form-group" >
                                             <label>Enter Full Name</label>
                                             <input class="form-control" placeholder=" Parth Borana" type="text" name="name" required>
                                         </div>
