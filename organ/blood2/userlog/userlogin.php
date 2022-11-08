@@ -52,17 +52,16 @@
 			$num_row 	= mysqli_num_rows($query);
 			
 			if ($num_row > 0) 
-				{			
+				{	
 					$_SESSION['user_id']=$row['user_id'];
 					header('location:userdashboard.php');
-					
 				}
 			else
 				{
 					echo '
 								<div class="alert alert-danger alert-dismissible">
                                         Invalid Username & Password.
-                                    </div> ';
+                                    </div> ';	
 				}
 		}
   ?>

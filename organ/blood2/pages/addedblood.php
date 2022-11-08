@@ -67,6 +67,7 @@ $gender = $_POST["gender"];
 $dob = $_POST["dob"];
 $weight = $_POST["weight"];
 $bloodgroup = $_POST["bloodgroup"];
+$organ=$_POST["organ"];
 $address = $_POST["address"];
 $contact = $_POST["contact"];
 $bloodqty = $_POST["bloodqty"];
@@ -74,7 +75,7 @@ $collection = $_POST["collection"];
 
 include 'dbconnect.php';
 //code after connection is successfull
-$qry = "insert into blood(name,gender,dob,weight,bloodgroup,address,contact,bloodqty,collection) values ('$name','$gender','$dob','$weight','$bloodgroup','$address','$contact','$bloodqty','$collection')";
+$qry = "insert into blood(name,gender,dob,weight,bloodgroup,organ,address,contact,bloodqty,collection) values ('$name','$gender','$dob','$weight','$bloodgroup','$organ','$address','$contact','$bloodqty','$collection')";
 $result = mysqli_query($conn,$qry); //query executes
 
 if(!$result){

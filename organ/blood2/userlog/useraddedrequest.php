@@ -1,7 +1,3 @@
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,21 +25,13 @@
 
     <link rel="stylesheet" href="../icofont/icofont.min.css">
 
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 
 <body>
 
     <div id="wrapper">
 
-    <?php include 'includes/nav.php'?>
+    <?php include 'includes/donornav.php'?>
 
         <div id="page-wrapper">
             <div class="row">
@@ -63,45 +51,38 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <form role="form" action="index.php" method="post">
-            <?php 
+							<?php 
 
-if(isset($_POST['name'])){
-$name = $_POST["name"];    
-$guardiansname = $_POST["guardiansname"];
-$gender = $_POST["gender"];
-$dob = $_POST["dob"];
-$weight = $_POST["weight"];
-$bloodgroup = $_POST["bloodgroup"];
-$organ=$_POST["organ"];
-$email = $_POST["email"];
-$address = $_POST["address"];
-$contact = $_POST["contact"];
-$username = $_POST["username"];
-$password = $_POST["password"];
+							if(isset($_POST['name'])){
+								$name = $_POST["name"];    
+								$gender = $_POST["gender"];
+								$dob = $_POST["dob"];
+								$weight = $_POST["weight"];
+								$bloodgroup = $_POST["bloodgroup"];
+								$address = $_POST["address"];
+								$contact = $_POST["contact"];
+								$organtype = $_POST["organtype"];
+								$message = $_POST["message"];
 
-include 'dbconnect.php';
-//code after connection is successfull
-$qry = "insert into donor(name,guardiansname,gender,dob,weight,bloodgroup,organ,email,address,contact,username,password) values ('$name','$guardiansname','$gender','$dob','$weight','$bloodgroup','$organ','$email','$address','$contact', '$username', '$password')";
-$result = mysqli_query($conn,$qry); //query executes
+								include '../pages/dbconnect.php';
+								//code after connection is successfull
+								$qry = "insert into organ_requests(name,gender,dob,weight,bloodgroup,address,contact,organtype,message) values ('$name','$gender','$dob','$weight','$bloodgroup','$address','$contact','$organtype','$message')";
+								$result = mysqli_query($conn,$qry); //query executes
 
-if(!$result){
-    echo"ERROR";
-}else {
-    echo" <div style='text-align: center'><h1>SUBMITTED SUCCESSFULLY</h1>";
-    echo" <a href='index.php' div style='text-align: center'><h3>Go Back</h3>";
+								if(!$result){
+									echo"ERROR";
+								}else {
+									echo" <div style='text-align: center'><h1>Your request has been sent. Thank You.</h1>";
+									echo" <a href='userdashboard.php' div style='text-align: center'><h3>Go Back</h3>";
 
-}
+								}
 
-}else{
-    echo"<h3>YOU ARE NOT AUTHORIZED TO REDIRECT THIS PAGE. GO BACK to <a href='index.php'> DASHBOARD </a></h3>";
-}
+							}else{
+								echo"<h3>YOU ARE NOT AUTHORIZED TO REDIRECT THIS PAGE. GO BACK to <a href='userdashboard.php'> DASHBOARD </a></h3>";
+							}
 
 
-?>
-                                    
-                                
-                                        
-                
+							?>        
                                     </form>
                                 </div>
                                 
@@ -136,7 +117,7 @@ if(!$result){
 </body>
 
 <footer>
-        <p>&copy; <?php echo date("Y"); ?>: Developed By PARTH, NAMAN, GAURAV</p>
+        <p>&copy; <?php echo date("Y"); ?>: Developed By Naseeb Bajracharya</p>
     </footer>
 	
 	<style>

@@ -7,7 +7,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php"><i class="icofont-blood-drop"></i>Blood Donation Management System</a>
+                <a class="navbar-brand" href="index.php"><i class="icofont-blood-drop"></i>Organ Donation</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -51,7 +51,7 @@
                             <a href="userdashboard.php"><i class="fa fa-dashboard fa-fw"></i> Donor's Dashboard</a>
                         </li>
                         <li>
-                            <a href="userviewblood.php"><i class="fa fa-heartbeat"></i>  View Blood Collections </a>
+                            <a href="userviewblood.php"><i class="fa fa-heartbeat"></i>  View Organ's Collections </a>
                       
                             <!-- /.nav-second-level -->
                         </li>
@@ -66,6 +66,8 @@
                             <a href="userviewcampaigns.php"><i class="fa fa-flag"></i> View Campaigns </a>
                            
                         </li>
+
+                       
             
                         
                        

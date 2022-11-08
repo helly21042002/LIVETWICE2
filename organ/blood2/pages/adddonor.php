@@ -63,7 +63,7 @@
                                      
                                         <div class="form-group">
                                             <label>Enter Full Name</label>
-                                            <input class="form-control" name="name" type="text" placeholder="Example: Parth Borana" required>
+                                            <input class="form-control" name="name" type="text" placeholder="Example: Prajjwal Chamaria" required>
                                         </div>
                                         <div class="form-group">
                                             <label>Enter Guardian's Name</label>
@@ -91,6 +91,11 @@
                                         </div>
 
                                         <div class="form-group">
+                                            <label>Enter Organ Name</label>
+                                            <input class="form-control" placeholder="Eg: Heart" name="organ" required>
+                                        </div>
+
+                                        <div class="form-group">
                                             <label>Enter Email Id</label>
                                             <input class="form-control" type="email" placeholder="Enter Email Id" name="email" required>
                                         </div>
@@ -109,7 +114,7 @@
                                             <label>Enter Username</label>
                                             <input class="form-control" placeholder="Enter Here" name="username" required>
                                             <p class="help-block">In order to create donor's account.</p>
-                                            <p class="help-block">Example:  Parth Borana20</p>
+                                            <p class="help-block">Example:  Prajjwal Chamaria20</p>
                                         </div>
 
                                         <div class="form-group">

@@ -25,25 +25,18 @@
 
     <link rel="stylesheet" href="../icofont/icofont.min.css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 
 <body>
 
     <div id="wrapper">
 
-        <?php include 'includes/nav.php'?>
+    <?php include 'includes/donornav.php'?>
 
         <div id="page-wrapper">
             <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header">Add Blood Details</h1>
+                <div class=".col-lg-12">
+                    <h1 class="page-header">Request an Organ</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -57,61 +50,56 @@
                         <div class="panel-body">
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <form role="form" action="addedblood.php" method="post">
+                                    <form role="form" action="useraddedrequest.php" method="POST">
                                      
                                         <div class="form-group">
                                             <label>Enter Full Name</label>
-                                            <input class="form-control" type="text" placeholder="Prajjwal Chamaria" name="name" required>
+                                            <input class="form-control" placeholder=" Parth Borana" type="text" name="name" required>
                                         </div>
                                         
                                         <div class="form-group">
                                             <label>Gender [ M/F ]</label>
-                                            <input class="form-control" placeholder="M or F" name="gender" required>
+                                            <input class="form-control" placeholder="M for Male & F for Female" type="text" name="gender" required>
                                         </div>
 
                                         <div class="form-group">
-                                            <label>Enter Date of birth</label>
+                                            <label>Enter D.O.B</label>
                                             <input class="form-control" type="date" name="dob" required>
                                         </div>
 
                                         <div class="form-group">
                                             <label>Enter Weight</label>
-                                            <input class="form-control" placeholder="Weight" type="number" name="weight" required>
+                                            <input class="form-control" type="number" placeholder="KG" name="weight" required>
                                         </div>
 
                                         <div class="form-group">
                                             <label>Enter Blood Group</label>
-                                            <input class="form-control" placeholder="Eg: B+" name="bloodgroup" required>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label>Enter Organ Name</label>
-                                            <input class="form-control" placeholder="Eg: Heart" name="organ" required>
+                                            <input class="form-control" type="text" placeholder="Example: B+, O-, B-" name="bloodgroup" required>
                                         </div>
 
                                         <div class="form-group">
                                             <label>Enter Address</label>
-                                            <input class="form-control" placeholder="Address" type="text" name="address" required>
+                                            <input class="form-control" type="text" placeholder="Full Address" name="address" required>
                                         </div>
 
                                         <div class="form-group">
                                             <label>Enter Contact Number</label>
-                                            <input class="form-control" placeholder="Contact Number" type="number" name="contact" required>
+                                            <input class="form-control" type="number" name="contact" required>
                                         </div>
 
                                         <div class="form-group">
-                                            <label>Blood Quantity</label>
-                                            <input class="form-control" placeholder="Blood Quantity" type="number" name="bloodqty" required>
+                                            <label>Organ Type</label>
+                                            <input class="form-control" type="text" name="organtype" required>
                                         </div>
 
                                         <div class="form-group">
-                                                <label>Collection Date</label>
-                                                <input class="form-control" type="date" name="collection" required>
+                                                <label>Message (If Any)</label>
+                                                <input class="form-control" type="text" name="message" required>
                                             </div>
                                        
                                     
-										
-                                        <button type="submit" class="btn btn-success btn-default" style="border-radius: 0%;">Submit Form</button>
+                                
+                                        <button type="submit"  class="btn btn-success">Submit</button>
                 
                                     </form>
                                 </div>
@@ -147,7 +135,7 @@
 </body>
 
 <footer>
-        <p>&copy; <?php echo date("Y"); ?>: Developed By Prajjwal, Helly, Aditya, Sanjeevani</p>
+        <p>&copy; <?php echo date("Y"); ?>: Developed By Naseeb Bajracharya</p>
     </footer>
 	
 	<style>

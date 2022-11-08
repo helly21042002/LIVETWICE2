@@ -7,7 +7,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php"><i class="icofont-blood-drop"></i>Blood Donation Management System</a>
+                <a class="navbar-brand" href="index.php"><i class="icofont-blood-drop"></i>Organ Donation</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -116,7 +116,23 @@
                             </ul>
                         </li>
             
-                        
+                        <li>
+                            <a href="viewrequests.php"><i class="fa fa-flag"></i> Request Made </a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="newcampaign.php">New Request</a>
+                                </li>
+                                <li>
+                                        <a href="viewcampaign.php">View Request</a>
+                                    </li>
+                                    <li>
+                                        <a href="updatecampaign.php">Update Request</a>
+                                    </li>
+                                    <li>
+                                        <a href="deletedcampaign.php">Delete Request</a>
+                                    </li>
+                            </ul>
+                        </li>
                        
                     </ul>
                 </div>
