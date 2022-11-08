@@ -117,7 +117,7 @@
 
 </body>
 <footer>
-        <p>&copy; <?php echo date("Y"); ?>: Developed By Helly, Prajjwal, Sanjeevani, aditya</p>
+        <p>&copy; <?php echo date("Y"); ?>: Developed By Helly, Prajjwal, Sanjeevani, Aditya</p>
     </footer>
 	
 	<style>

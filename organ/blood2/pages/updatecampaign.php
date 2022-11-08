@@ -27,11 +27,11 @@
 
 <?php include 'includes/nav.php'?>
 
-<div id="page-wrapper">
+<div  style='color:#e74e63' id="page-wrapper">
 <div class="container-fluid">
 <div class="row">
 <div class=".col-lg-12">
-               <h1 class="page-header">Edit Campaign Details</h1>
+               <h1 style='color:#e74e63' class="page-header">Edit Campaign Details</h1>
                 </div>
   </div>  
 
@@ -55,7 +55,7 @@
 
 
 						echo"
-						<thead>
+						<thead style='color:#e74e63'>
 												
 						<tr>
 						<th>Campaign Name</th>
@@ -75,7 +75,7 @@
 						  <td>".$row['phn']."</td>
 						  <td>".$row['cdate']."</td>
 						  <td>".$row['descp']."</td>
-						  <td><a href='updatecampaignform.php?id=".$row['id']."'><i class='fa fa-edit' style='color:green'></i></a></td>
+						  <td><a href='updatecampaignform.php?id=".$row['id']."'><i class='fa fa-edit' style='color:#e74e63''></i></a></td>
 						</tr>
 						</tbody>";
 						}
