@@ -73,6 +73,11 @@
                                         </div>
 
                                         <div class="form-group">
+                                            <label>Organ</label>
+                                            <input class="form-control" type="text" name="organ" value='<?php echo $row['organ']; ?>' required>
+                                        </div>
+
+                                        <div class="form-group">
                                             <label>Date and Time</label>
                                             <input class="form-control" name="dat" type="date" value='<?php echo $row['dat']; ?>' required>
                                         </div>

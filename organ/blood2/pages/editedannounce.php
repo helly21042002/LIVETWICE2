@@ -52,13 +52,14 @@
 						include 'dbconnect.php';
 							$announcement = $_POST["announcement"];    
 							$bloodneed = $_POST["bloodneed"];
+                            $organ = $_POST["organ"];
 							$dat = $_POST["dat"];
 							$organizer = $_POST["organizer"];
 							$requirements = $_POST["requirements"];
 
 							$id=$_POST['id'];
 							//update query
-							$qry = "update announce set announcement='$announcement', bloodneed='$bloodneed', dat='$dat', organizer='$organizer', requirements='$requirements' where id='$id'";
+							$qry = "update announce set announcement='$announcement', bloodneed='$bloodneed', organ='$organ' ,dat='$dat', organizer='$organizer', requirements='$requirements' where id='$id'";
 							$result = mysqli_query($conn,$qry); //query executes
 							if(!$result){
 								echo"ERROR". mysqli_error();
