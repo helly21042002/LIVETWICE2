@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>BDMS</title>
+    <title>LIVE TWICE</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -116,9 +116,6 @@
 
 </body>
 
-<footer>
-        <p>&copy; <?php echo date("Y"); ?>: Developed By Naseeb Bajracharya</p>
-    </footer>
 	
 	<style>
 	footer{

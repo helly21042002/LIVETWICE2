@@ -48,7 +48,7 @@
                         <div class="panel-heading">
                             Please fill up the form below:
                         </div>
-                        <div class="panel-body">
+                        <div class="panel-body" style="background-color: rgb(255, 179, 197)">
                             <div class="row">
                                 <div class="col-lg-6">
                                     <form role="form" action="announce.php" method="post">
