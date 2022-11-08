@@ -37,12 +37,12 @@
 				<div class="row">
                         <div class=".col-lg-12">
                             <div class="panel panel-default">
-                                <div class="panel-heading">
+                                <div class="panel-heading" style="background-color: rgb(255, 179, 197)">
                                     Total Records of available donors
                                 </div>
 								
-								 <div class="panel-body">
-                                    <div class="table-responsive">
+								 <div class="panel-body" style="background-color: rgb(255, 179, 197)">
+                                    <div class="table-responsive" >
 									<table class="table table-striped table-bordered table-hover" id="dataTables-example">
 									
 									<?php
@@ -55,7 +55,7 @@
 
 						echo"
 						<thead>
-						<tr>
+						<tr >
 							<th>Name</th>
 							<th>Username</th>
 							<th>Guardian's Name</th>
@@ -63,6 +63,7 @@
 							<th>D.O.B</th>
 							<th>Weight</th>
 							<th>Blood Group</th>
+							<th>Organ Name</th>
 							<th>Email</th>
 							<th>Address</th>
 							<th>Contact</th>
@@ -79,6 +80,7 @@
 						  <td>".$row['dob']."</td>
 						  <td>".$row['weight']."</td>
 						  <td>".$row['bloodgroup']."</td>
+						  <td>".$row['organ']."</td>
 						  <td>".$row['email']."</td>
 						  <td>".$row['address']."</td>
 						  <td>".$row['contact']."</td>
@@ -114,7 +116,7 @@
 
 </body>
 <footer>
-        <p>&copy; <?php echo date("Y"); ?>: Developed By PARTH, NAMAN, GAURAV</p>
+        <p>&copy; <?php echo date("Y"); ?>: Developed By Helly,Sanjeevani,Prajjwal,Aditya</p>
     </footer>
 	
 	<style>
