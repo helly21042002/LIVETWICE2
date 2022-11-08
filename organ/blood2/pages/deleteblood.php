@@ -2,7 +2,7 @@
 
 <head>
 
-<title>BDMS</title>
+<title>LIVETWICE</title>
 
 <!-- Bootstrap Core CSS -->
 <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
