@@ -63,7 +63,7 @@
                                             <input class="form-control" type="text" placeholder="example: B+" name="bloodneed" required>
                                         </div>
                                         <div class="form-group">
-                                            <label>Organ</label>
+                                            <label>Organ Needed</label>
                                             <input class="form-control" type="text" placeholder="example: B+" name="organ" required>
                                         </div>
                                         <div class="form-group">

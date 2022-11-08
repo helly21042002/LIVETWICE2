@@ -59,11 +59,10 @@
 						<tr>
 							<th>Title</th>
 							<th>Blood Needed</th>
-							<th>Organ</th>
+							<th>Organ Needed</th>
 							<th>Announcement Date</th>
 							<th>Organizer</th>
 							<th>Requirements</th>
-							<th><i  style='color:#e74e63' class='fa fa-pencil'></i></th>
 						</tr>
 						</thead>";
 
@@ -76,7 +75,6 @@
 						  <td>".$row['dat']."</td>
 						  <td>".$row['organizer']."</td>
 						  <td>".$row['requirements']."</td>
-						  <td><a href='delete.php?id=".$row['id']."'><i style='color:#e74e63' class='fa fa-pencil' ></i></a></td>
 						</tr>
 						</tbody>";
 						}
