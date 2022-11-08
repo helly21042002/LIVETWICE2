@@ -49,7 +49,7 @@
                             Please make your changes by updating the form below:
                         </div>
                         <div class="panel-body">
-                            <div class="row">
+                            <div class="row" style="background-color: rgb(255, 179, 197)">
                                 <div class="col-lg-6">
 
                                 <?php
