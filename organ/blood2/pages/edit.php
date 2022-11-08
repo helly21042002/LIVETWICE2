@@ -11,7 +11,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>BDMS</title>
+    <title>LIVE TWICE</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -39,14 +39,14 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">BBMS</h1>
+                    <h1 class="page-header">LIVE TWICE</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
             <!-- /.row -->
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="panel panel-default">
+                    <div class="panel panel-default" style="background-color: rgb(255, 179, 197)">
                         <div class="panel-heading">
                             MESSAGE BOX
                         </div>
@@ -117,9 +117,6 @@
 
 </body>
 
-<footer>
-        <p>&copy; <?php echo date("Y"); ?>: Developed By PARTH, NAMAN, GAURAV</p>
-    </footer>
 	
 	<style>
 	footer{

@@ -26,7 +26,7 @@
 
 <?php include 'includes/nav.php'?>
 
-<div id="page-wrapper">
+<div style='color:#e74e63' id="page-wrapper">
 <div class="container-fluid">
 <div class="row">
 <div class=".col-lg-12">
@@ -41,7 +41,7 @@
                                     Total Records of announcement made
                                 </div>
 								
-								 <div class="panel-body">
+								 <div style='color:#e74e63' class="panel-body">
                                     <div class="table-responsive">
 									<table class="table table-striped table-bordered table-hover" id="dataTables-example">
 									
@@ -54,7 +54,7 @@
 
 
 						echo"
-						<thead>
+						<thead style='color:#e74e63'>
 												
 						<tr>
 							<th>Title</th>
@@ -62,6 +62,7 @@
 							<th>Announcement Date</th>
 							<th>Organizer</th>
 							<th>Requirements</th>
+							<th><i  style='color:#e74e63' class='fa fa-pencil'></i></th>
 						</tr>
 						</thead>";
 
@@ -73,7 +74,7 @@
 						  <td>".$row['dat']."</td>
 						  <td>".$row['organizer']."</td>
 						  <td>".$row['requirements']."</td>
-
+						  <td><a href='delete.php?id=".$row['id']."'><i style='color:#e74e63' class='fa fa-pencil' ></i></a></td>
 						</tr>
 						</tbody>";
 						}
