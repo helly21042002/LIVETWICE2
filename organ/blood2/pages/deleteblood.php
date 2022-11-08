@@ -31,7 +31,7 @@
 <div  class="container-fluid">
 <div  class="row">
 <div style='color:#e74e63' class=".col-lg-12">
-               <h1 class="page-header">Delete Blood Details</h1>
+               <h1 class="page-header">Delete Organ Details</h1>
                 </div>
   </div>  
 
@@ -39,7 +39,7 @@
                         <div class=".col-lg-12">
                             <div class="panel panel-default">
                                 <div class="panel-heading">
-                                    Total Records of available bloods
+                                    Total Records of available Organs
                                 </div>
 								
 								 <div  class="panel-body">
@@ -58,6 +58,7 @@
 						<thead style='color:#e74e63'>
 						<tr>
 							<th>Blood Group</th>
+							<th>Organ</th>
 							<th>Full Name</th>
 							<th>Gender</th>
 							<th>D.O.B</th>
@@ -74,6 +75,7 @@
 						  echo"<tbody>
 						  <tr class='gradeA'>
 						  <td>".$row['bloodgroup']."</td>
+						  <td>".$row['organ']."</td>
 						  <td>".$row['name']."</td>
 						  <td>".$row['gender']."</td>
 						  <td>".$row['dob']."</td>
