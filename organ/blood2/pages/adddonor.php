@@ -179,7 +179,7 @@
 </body>
 
 <footer>
-        <p>&copy; <?php echo date("Y"); ?>: Developed By PARTH, NAMAN, GAURAV</p>
+        <p>&copy; <?php echo date("Y"); ?>: Developed By Prajjwal, Sanjeevani, Helly, Aditya</p>
     </footer>
 	
 	<style>
