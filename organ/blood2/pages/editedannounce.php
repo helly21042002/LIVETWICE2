@@ -3,7 +3,8 @@
 
 <head>
 
-    <title>BDMS</title>
+    <title>LIVE TWICE
+</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -39,7 +40,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="panel panel-default">
-                        <div class="panel-heading">
+                        <div class="panel-heading" style="background-color: rgb(255, 179, 197)" >
                             MESSAGE BOX
                         </div>
                         <div class="panel-body">
@@ -100,9 +101,7 @@
 
 </body>
 
-<footer>
-        <p>&copy; <?php echo date("Y"); ?>: Developed By PARTH, NAMAN, GAURAV</p>
-    </footer>
+
 	
 	<style>
 	footer{
