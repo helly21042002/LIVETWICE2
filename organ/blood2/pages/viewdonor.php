@@ -26,7 +26,7 @@
 
 <?php include 'includes/nav.php'?>
 
-<div id="page-wrapper">
+<div  style='color:#e74e63' id="page-wrapper">
 <div class="container-fluid">
 <div class="row">
 <div class=".col-lg-12">
@@ -37,11 +37,11 @@
 				<div class="row">
                         <div class=".col-lg-12">
                             <div class="panel panel-default">
-                                <div class="panel-heading" style="background-color: rgb(255, 179, 197)">
+                                <div class="panel-heading">
                                     Total Records of available donors
                                 </div>
 								
-								 <div class="panel-body" style="background-color: rgb(255, 179, 197)">
+								 <div style='color:#e74e63' class="panel-body" >
                                     <div class="table-responsive" >
 									<table class="table table-striped table-bordered table-hover" id="dataTables-example">
 									
@@ -54,7 +54,7 @@
 
 
 						echo"
-						<thead>
+						<thead style='color:#e74e63'>
 						<tr >
 							<th>Name</th>
 							<th>Username</th>
@@ -67,6 +67,7 @@
 							<th>Email</th>
 							<th>Address</th>
 							<th>Contact</th>
+							<th><i  style='color:#e74e63' class='fa fa-pencil'></i></th>
 						</tr>
 						</thead>";
 
@@ -84,7 +85,7 @@
 						  <td>".$row['email']."</td>
 						  <td>".$row['address']."</td>
 						  <td>".$row['contact']."</td>
-
+						  <td><a href='delete.php?id=".$row['id']."'><i style='color:#e74e63' class='fa fa-' ></i></a></td>	
 						</tr>
 						</tbody>";
 						}
@@ -116,7 +117,7 @@
 
 </body>
 <footer>
-        <p>&copy; <?php echo date("Y"); ?>: Developed By Helly,Sanjeevani,Prajjwal,Aditya</p>
+        <p>&copy; <?php echo date("Y"); ?>: Developed By Helly, Prajjwal, Sanjeevani, aditya</p>
     </footer>
 	
 	<style>
