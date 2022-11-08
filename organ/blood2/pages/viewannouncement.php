@@ -54,7 +54,7 @@
 
 
 						echo"
-						<thead style='color:#e74e63'>
+						<thead style='background-color:#e74e63'>
 												
 						<tr>
 							<th>Title</th>
