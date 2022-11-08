@@ -2,7 +2,7 @@
 
 <head>
 
-<title>style='color:#e74e63'</title>
+<title>	LIVETWICE</title>
 
 <!-- Bootstrap Core CSS -->
 <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -29,7 +29,7 @@
 <div id="page-wrapper">
 <div class="container-fluid">
 <div class="row">
-<div class=".col-lg-12">
+<div style='color:#e74e63' class=".col-lg-12">
                <h1 class="page-header">Delete Announcement Detail</h1>
                 </div>
   </div>  
@@ -54,7 +54,7 @@
 
 
 						echo"
-						<thead>
+						<thead style='color:#e74e63'>
 												
 						<tr>
 							<th>Title</th>
@@ -62,7 +62,7 @@
 							<th>Announcement Date</th>
 							<th>Organizer</th>
 							<th>Requirements</th>
-							<th><i class='fa fa-pencil'></i></th>
+							<th><i style='color:#e74e63' class='fa fa-pencil'></i></th>
 						</tr>
 						</thead>";
 
@@ -74,7 +74,7 @@
 						  <td>".$row['dat']."</td>
 						  <td>".$row['organizer']."</td>
 						  <td>".$row['requirements']."</td>
-						  <td><a href='deletedannounce.php?id=".$row['id']."'><i class='fa fa-trash' style='color:red'></i></a></td>
+						  <td><a href='deletedannounce.php?id=".$row['id']."'><i style='color:#e74e63' class='fa fa-trash'></i></a></td>
 
 						</tr>
 						</tbody>";
@@ -109,25 +109,5 @@
 
 </body>
 
-<footer>
-        <p>&copy; <?php echo date("Y"); ?>: Developed By PARTH, NAMAN, GAURAV</p>
-    </footer>
-	
-	<style>
-	footer{
-   background-color: #424558;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 35px;
-    text-align: center;
-    color: #CCC;
-}
-
-footer p {
-    padding: 10.5px;
-    margin: 0px;
-    line-height: 100%;
-}
 	</style>
 </html>
