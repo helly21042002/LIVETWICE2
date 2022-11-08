@@ -37,12 +37,12 @@
 				<div class="row">
                         <div class=".col-lg-12">
                             <div class="panel panel-default">
-                                <div class="panel-heading">
+                                <div class="panel-heading" style="background-color: rgb(255, 179, 197)">
                                     Total Records of available donors
                                 </div>
 								
-								 <div class="panel-body">
-                                    <div class="table-responsive">
+								 <div class="panel-body" style="background-color: rgb(255, 179, 197)">
+                                    <div class="table-responsive" >
 									<table class="table table-striped table-bordered table-hover" id="dataTables-example">
 									
 									<?php
@@ -55,7 +55,7 @@
 
 						echo"
 						<thead>
-						<tr>
+						<tr >
 							<th>Name</th>
 							<th>Username</th>
 							<th>Guardian's Name</th>
@@ -116,7 +116,7 @@
 
 </body>
 <footer>
-        <p>&copy; <?php echo date("Y"); ?>: Developed By PARTH, NAMAN, GAURAV</p>
+        <p>&copy; <?php echo date("Y"); ?>: Developed By Helly,Sanjeevani,Prajjwal,Aditya</p>
     </footer>
 	
 	<style>
