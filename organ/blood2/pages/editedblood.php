@@ -54,13 +54,14 @@
 										$dob = $_POST["dob"];
 										$weight = $_POST["weight"];
 										$bloodgroup = $_POST["bloodgroup"];
+                                        $organ=$_POST["organ"];
 										$address = $_POST["address"];
 										$contact = $_POST["contact"];
 										$bloodqty = $_POST["bloodqty"];
 										$collection = $_POST["collection"];
 										$id=$_POST['id'];
 										//update query
-										$qry = "update blood set name='$name', gender='$gender', dob='$dob', weight='$weight', bloodgroup='$bloodgroup', address='$address', contact='$contact', bloodqty='$bloodqty', collection='$collection' where id='$id'";
+										$qry = "update blood set name='$name', gender='$gender', dob='$dob', weight='$weight', bloodgroup='$bloodgroup',organ='$organ', address='$address', contact='$contact', bloodqty='$bloodqty', collection='$collection' where id='$id'";
 										$result = mysqli_query($conn,$qry); //query executes
 										if(!$result){
 											echo"ERROR". mysqli_error();

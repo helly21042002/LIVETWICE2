@@ -38,7 +38,7 @@
 <div class="container-fluid">
 <div class="row">
 <div class=".col-lg-12">
-               <h1 class="page-header">Blood Collection</h1>
+               <h1 class="page-header">Organ Collection</h1>
                 </div>
   </div>  
 
@@ -46,7 +46,7 @@
                         <div class=".col-lg-12">
                             <div class="panel panel-default">
                                 <div class="panel-heading">
-                                    Total Records of available bloods
+                                    Total Records of available Organs
                                 </div>
 								
 								 <div style='color:#e74e63' class="panel-body">

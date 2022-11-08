@@ -1,5 +1,5 @@
 <!-- Navigation -->
-<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+<nav   class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
@@ -32,22 +32,22 @@
             
             <!-- /.navbar-top-links -->
 
-            <div class="navbar-default sidebar" role="navigation">
+            <div style="background-color: rgb(255, 179, 197)" class="navbar-default sidebar" role="navigation">
                 <div class="sidebar-nav navbar-collapse">
-                    <ul class="nav" id="side-menu">
+                    <ul  class="nav" id="side-menu">
                         <li class="sidebar-search">
                             <div class="input-group custom-search-form">
                                 <input type="text" class="form-control" placeholder="Search...">
                                 <span class="input-group-btn">
                                 <button class="btn btn-default" type="button">
-                                    <i style="color:#e74e63" class="fa fa-search"></i>
+                                    <i  class="fa fa-search"></i>
                                 </button>
 
                             </span>
                             </div>
                             <!-- /input-group -->
                         </li>
-                        <li>
+                        <li >
                             <a href="userdashboard.php"><i style="color:#e74e63" class="fa fa-dashboard fa-fw"></i> Donor's Dashboard</a>
                         </li>
                         <li>

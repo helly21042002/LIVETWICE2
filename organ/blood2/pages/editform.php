@@ -94,6 +94,11 @@ while($row=mysqli_fetch_array($result)){
                                         </div>
 
                                         <div class="form-group">
+                                            <label>Enter Organ</label>
+                                            <input class="form-control" type="text" name="organ" value='<?php echo $row['organ']; ?>' required>
+                                        </div>
+
+                                        <div class="form-group">
                                             <label>Enter Email Id</label>
                                             <input class="form-control" type="email" name="email" value='<?php echo $row['email']; ?>' required>
                                         </div>
