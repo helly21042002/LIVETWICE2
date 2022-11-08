@@ -63,6 +63,7 @@
 							<th>D.O.B</th>
 							<th>Weight</th>
 							<th>Blood Group</th>
+							<th>Organ</th>
 							<th>Email</th>
 							<th>Address</th>
 							<th>Contact</th>
@@ -80,6 +81,7 @@
 						  <td>".$row['dob']."</td>
 						  <td>".$row['weight']."</td>
 						  <td>".$row['bloodgroup']."</td>
+						  <td>".$row['organ']."</td>
 						  <td>".$row['email']."</td>
 						  <td>".$row['address']."</td>
 						  <td>".$row['contact']."</td>

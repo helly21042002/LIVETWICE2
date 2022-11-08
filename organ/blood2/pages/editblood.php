@@ -43,8 +43,8 @@
                                     Total Records of available Organs
                                 </div>
 								
-								 <div class="panel-body" style='color:#e74e63'>
-                                    <div class="table-responsive" style="background-color: rgb(255, 179, 197)">
+								 <div class="panel-body">
+                                    <div class="table-responsive">
 									<table class="table table-striped table-bordered table-hover" id="dataTables-example">
 									
 									<?php
