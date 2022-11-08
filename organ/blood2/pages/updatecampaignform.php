@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>LIVE TWICE</title>
+    <title>Live Twice</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -132,25 +132,6 @@
     <script src="../dist/js/sb-admin-2.js"></script>
 
 </body>
-
-	
-	<style>
-	footer{
-   background-color: #424558;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 35px;
-    text-align: center;
-    color: #CCC;
-}
-
-footer p {
-    padding: 10.5px;
-    margin: 0px;
-    line-height: 100%;
-}
-	</style>
 
 </html>
                              
