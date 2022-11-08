@@ -2,7 +2,7 @@
 
 <head>
 
-<title>BDMS</title>
+<title>LIVE TWICE</title>
 
 <!-- Bootstrap Core CSS -->
 <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -39,12 +39,12 @@
 				<div class="row">
                         <div class=".col-lg-12">
                             <div class="panel panel-default">
-                                <div class="panel-heading">
+                                <div class="panel-heading"style="background-color: #e74e63">
                                     Total Records of available campaign
                                 </div>
 								
-								 <div class="panel-body">
-                                    <div class="table-responsive">
+								 <div class="panel-body" >
+                                    <div class="table-responsive" style="background-color: rgb(255, 179, 197)">
 									<table class="table table-striped table-bordered table-hover" id="dataTables-example">
 									
 									<?php
@@ -106,9 +106,6 @@
 
 </body>
 
-<footer>
-        <p>&copy; <?php echo date("Y"); ?>: Developed By Naseeb Bajracharya</p>
-    </footer>
 	
 	<style>
 	footer{
