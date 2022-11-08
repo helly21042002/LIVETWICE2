@@ -1,27 +1,27 @@
 <!-- Navigation -->
-<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
+<nav  class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div  class="navbar-header">
+                <button  type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span  class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php"><i class="icofont-blood-drop"></i>Organ Donation</a>
+                <a style="color:#e74e63" class="navbar-brand" href="index.php"><i style="color:#e74e63" class="icofont-heart-beat-alt"></i> Organ Donation</a>
             </div>
             <!-- /.navbar-header -->
 
-            <ul class="nav navbar-top-links navbar-right">
+            <ul  class="nav navbar-top-links navbar-right">
                
              
                 <!-- /.dropdown -->
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
+                        <i style="color:#e74e63" class="fa fa-user fa-fw"></i> <i style="color:#e74e63" class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
                         <!-- <li class="divider"></li> -->
-                        <li><a href="../logout.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        <li><a  href="../logout.php"><i style="color:#e74e63" class="fa fa-sign-out fa-fw"></i> Logout</a>
                         </li>
                     </ul>
                     <!-- /.dropdown-user -->
@@ -35,12 +35,12 @@
             <div class="navbar-default sidebar" role="navigation">
                 <div class="sidebar-nav navbar-collapse">
                     <ul class="nav" id="side-menu">
-                        <li class="sidebar-search">
-                            <div class="input-group custom-search-form">
+                        <li  class="sidebar-search">
+                            <div   class="input-group custom-search-form">
                                 <input type="text" class="form-control" placeholder="Search...">
                                 <span class="input-group-btn">
                                 <button class="btn btn-default" type="button">
-                                    <i class="fa fa-search"></i>
+                                    <i style="color:#e74e63" class="fa fa-search"></i>
                                 </button>
 
                             </span>
@@ -48,76 +48,76 @@
                             <!-- /input-group -->
                         </li>
                         <li>
-                            <a href="index.php"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                            <a href="index.php"><i style="color:#e74e63" class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                         </li>
                         <li>
-                            <a href=""><i class="fa fa-heartbeat"></i> Blood Collection Details <span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
+                            <a href=""><i style="color:#e74e63" class="fa fa-heartbeat"></i> Organ Collection Details <span class="fa arrow"></span></a>
+                            <ul style="color:#e74e63" class="nav nav-second-level">
                                 <li>
-                                    <a href="addblood.php">Add Blood</a>
+                                    <a style="color:#e74e63"  href="addblood.php">Add Organ</a>
                                 </li>
                                 <li>
-                                    <a href="viewblood.php">View Blood</a>
+                                    <a style="color:#e74e63"  href="viewblood.php">View Organ</a>
                                 </li>
                                 <li>
-                                    <a href="editblood.php">Edit Blood</a>
+                                    <a style="color:#e74e63"  href="editblood.php">Edit Organ</a>
                                 </li>
                                 <li>
-                                    <a href="deleteblood.php">Remove Blood</a>
+                                    <a style="color:#e74e63"  href="deleteblood.php">Remove Organ</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
                         </li>
                         <li>
-                            <a href="adddonor.php"><i class="fa fa-table fa-user-plus"></i> Add Donor</a>
+                            <a href="adddonor.php"><i style="color:#e74e63" class="fa fa-table fa-user-plus"></i> Add Donor</a>
                         </li>
                         <li>
-                            <a href="viewdonor.php"><i class="fa fa-edit fa-eye"></i> View Donor Details</a>
+                            <a href="viewdonor.php"><i style="color:#e74e63" class="fa fa-edit fa-eye"></i> View Donor Details</a>
                         </li>
                         <li>
-                            <a href="editview.php"><i class="fa fa-edit fa-fw"></i> Edit Donor Details</a>
+                            <a href="editview.php"><i style="color:#e74e63" class="fa fa-edit fa-fw"></i> Edit Donor Details</a>
                         </li>
                         <li>
-                            <a href="deleteview.php"><i class="fa fa-user-times"></i> Delete Donor Details</a>
+                            <a href="deleteview.php"><i style="color:#e74e63" class="fa fa-user-times"></i> Delete Donor Details</a>
                         </li>
                         <li>
-                            <a href=""><i class="fa fa-bullhorn"></i> Announcements <span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
+                            <a href=""><i style="color:#e74e63" class="fa fa-bullhorn"></i> Announcements <span class="fa arrow"></span></a>
+                            <ul style="color:#e74e63" class="nav nav-second-level">
                                 <li>
-                                    <a href="makeannouncement.php">Make Announcement</a>
+                                    <a style="color:#e74e63"  href="makeannouncement.php">Make Announcement</a>
                                 </li>
                                 <li>
-                                    <a href="viewannouncement.php">View Announcement</a>
+                                    <a style="color:#e74e63"  href="viewannouncement.php">View Announcement</a>
                                 </li>
                                 <li>
-                                    <a href="editannounceform.php">Edit Announcement</a>
+                                    <a style="color:#e74e63"  href="editannounceform.php">Edit Announcement</a>
                                 </li>
                                 <li>
-                                    <a href="deleteannouncement.php">Remove Announcement</a>
+                                    <a style="color:#e74e63"  href="deleteannouncement.php">Remove Announcement</a>
                                 </li>
                             </ul>
                         </li>
 
                         <li>
-                            <a href=""><i class="fa fa-flag"></i> Campaigns <span class="fa arrow"></span></a>
+                            <a href=""><i style="color:#e74e63" class="fa fa-flag"></i> Campaigns <span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="newcampaign.php">New Campaign</a>
+                                    <a style="color:#e74e63"  href="newcampaign.php">New Campaign</a>
                                 </li>
                                 <li>
-                                        <a href="viewcampaign.php">View Campaign</a>
+                                        <a style="color:#e74e63"  href="viewcampaign.php">View Campaign</a>
                                     </li>
                                     <li>
-                                        <a href="updatecampaign.php">Update Campaign</a>
+                                        <a style="color:#e74e63"  href="updatecampaign.php">Update Campaign</a>
                                     </li>
                                     <li>
-                                        <a href="deletedcampaign.php">Delete Campaign</a>
+                                        <a style="color:#e74e63"  href="deletedcampaign.php">Delete Campaign</a>
                                     </li>
                             </ul>
                         </li>
             
                         <li>
-                            <a href="viewrequests.php"><i class="fa fa-flag"></i> Request Made </a>
+                            <a href="viewrequests.php"><i style="color:#e74e63" class="fa fa-flag"></i> Request Made </a>
                             <ul class="nav nav-second-level">
                                 <li>
                                     <a href="newcampaign.php">New Request</a>
