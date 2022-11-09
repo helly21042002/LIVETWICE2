@@ -59,6 +59,7 @@
 								$dob = $_POST["dob"];
 								$weight = $_POST["weight"];
 								$bloodgroup = $_POST["bloodgroup"];
+                                $organ = $_POST["organ"];
 								$address = $_POST["address"];
 								$contact = $_POST["contact"];
 								$organtype = $_POST["organtype"];
@@ -66,7 +67,7 @@
 
 								include '../pages/dbconnect.php';
 								//code after connection is successfull
-								$qry = "insert into organ_requests(name,gender,dob,weight,bloodgroup,address,contact,organtype,message) values ('$name','$gender','$dob','$weight','$bloodgroup','$address','$contact','$organtype','$message')";
+								$qry = "insert into organ_requests(name,gender,dob,weight,bloodgroup,organ,address,contact,organtype,message) values ('$name','$gender','$dob','$weight','$bloodgroup','$organ','$address','$contact','$organtype','$message')";
 								$result = mysqli_query($conn,$qry); //query executes
 
 								if(!$result){

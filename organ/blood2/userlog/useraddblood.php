@@ -36,7 +36,7 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class=".col-lg-12">
-                    <h1 class="page-header">Donate Blood Section</h1>
+                    <h1 class="page-header">Donate Organ Section</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -76,6 +76,11 @@
                                         <div class="form-group">
                                             <label>Enter Blood Group</label>
                                             <input class="form-control" type="text" placeholder="Example: B+, O-, B-" name="bloodgroup" required>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>Enter Organ</label>
+                                            <input class="form-control" type="text" placeholder="Example: Heart" name="organ" required>
                                         </div>
 
                                         <div class="form-group">

@@ -62,6 +62,7 @@
 						<tr>
 							<th>Title</th>
 							<th>Blood Needed</th>
+							<th>Organ</th>
 							<th>Announcement Date</th>
 							<th>Organizer</th>
 							<th>Requirements</th>
@@ -73,6 +74,7 @@
 						  <tr>
 						  <td>".$row['announcement']."</td>
 						  <td>".$row['bloodneed']."</td>
+						  <td>".$row['organ']."</td>
 						  <td>".$row['dat']."</td>
 						  <td>".$row['organizer']."</td>
 						  <td>".$row['requirements']."</td>
