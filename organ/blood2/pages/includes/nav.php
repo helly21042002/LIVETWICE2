@@ -117,19 +117,19 @@
                         </li>
             
                         <li>
-                            <a href="viewrequests.php"><i style="color:#e74e63" class="fa fa-flag"></i> Request Made </a>
+                            <a href="viewrequests.php"><i style="color:#e74e63" class="fa fa-flag"></i> Requests Made </a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="newcampaign.php">New Request</a>
+                                    <a href="adminnewrequests.php">New Requests</a>
                                 </li>
                                 <li>
-                                        <a href="viewcampaign.php">View Request</a>
+                                        <a href="viewrequests.php">View Requests</a>
                                     </li>
                                     <li>
-                                        <a href="updatecampaign.php">Update Request</a>
+                                        <a href="adminupdaterequest.php">Update Requests</a>
                                     </li>
                                     <li>
-                                        <a href="deletedcampaign.php">Delete Request</a>
+                                        <a href="admindeleterequest.php">Delete Requests</a>
                                     </li>
                             </ul>
                         </li>
