@@ -50,29 +50,7 @@ $result= mysqli_query($conn,$qry);
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 	
-	<script type="text/javascript">  
-           google.charts.load('current', {'packages':['corechart']});  
-           google.charts.setOnLoadCallback(drawChart);  
-           function drawChart()  
-           {  
-                var data = google.visualization.arrayToDataTable([  
-                          ['Gender', 'Number'],  
-                          <?php  
-                          while($row = mysqli_fetch_array($result))  
-                          {  
-                               echo "['".$row["bloodgroup"]."', ".$row["number"]."],";  
-                          }  
-                          ?>  
-                     ]);  
-                var options = {  
-                      title: 'Total Available Organs',  
-                      is3D:true,  
-                      pieHole: 0.0 
-                     };  
-                var chart = new google.visualization.PieChart(document.getElementById('piechart'));  
-                chart.draw(data, options);  
-           }  
-           </script>
+	
 
 </head>
 
@@ -214,7 +192,7 @@ $result= mysqli_query($conn,$qry);
 						  
 						  <div class="span12">
 							
-							<div id="piechart" style="width: 690px; height: 320px; margin-left:auto; margin-right:auto;"></div>  
+							
 
 						  </div>
 						</div>
