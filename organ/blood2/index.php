@@ -40,7 +40,7 @@
 		<nav class="navbar navbar-inverse">
 			  <div  class="container-fluid">
 				<div  class="navbar-header">
-                <a style="color:#e74e63" class="navbar-brand" href="index.php"><i style="color:#e74e63" class="icofont-heart-beat-alt"></i> LIVETWICE- Organ Donation Website</a>
+                <a style="color:#e74e63" class="navbar-brand" href="index.php"><i style="color:#e74e63" class="icofont-heart-beat-alt"></i> Lif-E-Line- Organ Donation Website</a>
                 
 				</div>
 
